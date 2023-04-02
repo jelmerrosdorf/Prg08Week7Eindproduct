@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <title>Phone price calculator</title>
+</head>
+<body>
+    <div id="main">
+        <h2>Voorspel de prijs van een telefoon!</h2>
+
+        <div id="input">
+            <p id="text">Gewicht (in gram)</p>
+            <input type="text" id="weight" placeholder="400">
+        </div>
+        <div id="input">
+            <p id="text">Resolutie (in inch)</p>
+            <input type="text" id="resolution" placeholder="7">
+        </div>
+        <div id="input">
+            <p id="text">Werkgeheugen (in GB)</p>
+            <input type="text" id="memory" placeholder="8">
+        </div>
+        <div id="input">
+            <p id="text">Opslag (in GB)</p>
+            <input type="text" id="storage" placeholder="4">
+        </div>
+        <div id="input">
+            <p id="text">Camera achterkant (in MP)</p>
+            <input type="text" id="rearcam" placeholder="12">
+        </div>
+        <div id="input">
+            <p id="text">Camera voorkant (in MP)</p>
+            <input type="text" id="frontcam" placeholder="8">
+        </div>
+        <div id="input">
+            <button id="submit">Voorspel!</button>
+        </div>
+        <div>
+            <p id="result"></p>
+        </div>
+    </div>
+</body>
+<script defer src="main.js" type="module"></script>
+</html>
